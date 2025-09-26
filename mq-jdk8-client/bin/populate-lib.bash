@@ -20,3 +20,6 @@ cp -v "${2}/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar" 'lib/'
 
 echo 'Copy mq allclient version 9.4.3.1 ...'
 cp -v "${2}/com/ibm/mq/com.ibm.mq.allclient/9.4.3.1/com.ibm.mq.allclient-9.4.3.1.jar" 'lib/'
+
+echo 'Copy json version 20250107 ...'
+cp -v "${2}/org/json/json/20250107/json-20250107.jar" 'lib/'
