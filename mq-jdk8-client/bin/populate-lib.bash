@@ -17,3 +17,6 @@ cp -v "${2}/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar" 'l
 
 echo 'Copy logback core version 1.5.18 ...'
 cp -v "${2}/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar" 'lib/'
+
+echo 'Copy mq allclient version 9.4.3.1 ...'
+cp -v "${2}/com/ibm/mq/com.ibm.mq.allclient/9.4.3.1/com.ibm.mq.allclient-9.4.3.1.jar" 'lib/'
